@@ -1,0 +1,11 @@
+    {
+        "name": "Blockhain Peralta NTF 0",
+        "description": "NFT collection by Juan Peralta",
+        "image": "",
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "0"
+            }
+        ]
+    }
