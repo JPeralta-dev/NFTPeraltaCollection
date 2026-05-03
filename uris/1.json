@@ -1,7 +1,7 @@
     {
         "name": "Blockhain Peralta NTF 1",
         "description": "NFT collection by Juan Peralta",
-        "image": "",
+        "image": "ipfs://bafkreigp32ufmv764aa3ny6zlthclvquprxzd46oaw65at4ydk3fqyqxii",
         "attributes": [
             {
                 "trait_type": "Rarity",
