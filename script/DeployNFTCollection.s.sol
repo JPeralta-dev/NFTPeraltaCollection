@@ -6,7 +6,7 @@ import {Script} from "forge-std/Script.sol";
 import {peraltaNftCollection} from "../src/peraltaNtfCollection.sol";
 contract DeployNFTCollection is Script {
     function run() external returns (peraltaNftCollection) {
-        uint deployAdressWalletUint = vm.envInt("PRIVATE_KEY");
+        uint256 deployAdressWalletUint = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployAdressWalletUint);
         string memory name_ = "NFTPERALTA";
         string memory symbol_ = "NFP";
@@ -19,7 +19,7 @@ contract DeployNFTCollection is Script {
             totalSupply_,
             baseURI_
         );
-        vm.startBroadcast();
+        vm.stopBroadcast();
         return nftCollection;
     }
 }
